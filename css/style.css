@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+/*   home      */
+
+
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.4),rgba(255, 0, 0, 0.4)),url(../images/Party.webp) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.home-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#home h2 {
+    margin-top: 220px;
+}
+
+#head h2,#head p {
+    text-align: center;
+}
+
+
+.nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #414658;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.nav a{
+    padding: 30px 0;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.nav a:hover,.fa-circle-xmark:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+#head {
+    transition: all .4s;
+    padding-left: 1rem;
+}
+
+#head h2 {
+    font-size: 60px;
+}
+#head span{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.fa-circle-xmark{
+    right: 15px;
+    top: 27px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/*      contact    */
+
+
+.contact{
+    color:#525a76e6;
+}
+.cont-icon i{
+border: 1px solid #525a76e6 ;
+color: #525a76e6;
+padding: 8px;
+font-size: 22px;
+}
+.cont-icon i:hover{
+    background-color:rgb(149, 29, 29) ;
+    color: white;
+    border: none;
+    transition: all 0.4s;
+
+}
+
+
+/*      singers   */
+
+.singers {
+    background-color: lightcoral;
+}
+.singers p{
+    background-color: #ccc;
+    padding: 12px;
+    display: none;  
+}
+.singers h3{
+    padding: 10px 0;
+    color: white;
+    cursor: pointer;
+}
+
+/*    counter   */
+
+#duration{
+    background-image:linear-gradient(rgba(255, 0, 0, 0.4),rgba(255, 0, 0, 0.4)),url(../images/mm.jpg) ; 
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    margin: 100px 0;
+
+}
